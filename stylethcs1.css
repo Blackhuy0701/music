@@ -1,0 +1,46 @@
+*{box-sizing: border-box;}
+
+body {background-image: url(music1.jpg);
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+nav {
+    box-shadow: 0 0 15px;
+}
+
+nav ul {
+    margin: 0px;
+    padding:10px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    display: block;
+    padding: .75em 1.75em;
+}
+
+nav li:hover {
+    background: white;
+    text-decoration: underline; 
+}
+
+nav li:hover a {
+    background: whitesmoke;
+}
+
+p {text-align: justify;
+   font-size: medium;}
+
+.foot {text-align: center;
+    
+position: relative;}
+

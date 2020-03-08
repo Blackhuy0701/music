@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box
+    ;
+}
+
+body {
+    background-image: url(music1.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    box-shadow: 0 0 15px;
+}
+
+nav ul {
+    margin: 0px;
+    padding:10px;
+    list-style: none;
+    position: relative;
+    text-align: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    padding: .75em 1.75em;
+}
+
+nav li:hover {
+    background: white;
+    text-decoration: underline; 
+}
+
+nav li:hover a {
+    background: whitesmoke;
+    
+}
+
+.menu-sub {position: absolute;
+background: whitesmoke;
+width: 20%;
+display: none;
+color: blue;}
+
+nav li:hover .menu-sub {display: block;}
+
+.menu-sub li {display: block;}
+.menu-sub a {padding: 5px}
+
+.menu-sub-1 {position: absolute;
+    background:whitesmoke;
+width: 20%;
+display: none;
+color: purple;}
+
+nav li:hover .menu-sub-1 {display: block;}
+.menu-sub-1 li {display: block;}
+.menu-sub-1 a {padding: 5px;}
+
+.menu-sub-2 {position: absolute;
+    background:whitesmoke;
+width: 20%;
+display: none;
+color: green;}
+
+nav li:hover .menu-sub-2 {display: block;}
+.menu-sub-2 li {display: block;}
+.menu-sub-2 a {padding: 5px;}
+
+.menu-sub-3 {position: absolute;
+    background:whitesmoke;
+width: 20%;
+display: none;
+color: red;}
+
+nav li:hover .menu-sub-3 {display: block;}
+.menu-sub-3 li {display: block;}
+.menu-sub-3 a {padding: 5px;}
+
+.footer {text-align: center;
+clear: both;
+margin-top: 600px ;
+position: relative;}
