@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HỌC HÁT 8 HKII</title>
 <link href="stylethcs1.css" rel="stylesheet">
+<script defer src="sing8-2.js"></script>
     </head>
 <body>
   <nav>
@@ -73,6 +74,50 @@ _ Sonatine</p>
 Tô Hải là nhạc sĩ đa phong cách, sáng tác nhiều thể loại như ca khúc, hành khúc, hợp xướng, nhạc kịch, nhạc phim, khí nhạc.<br> Ngoài ra ông còn viết nhiều tiểu luận, và viết báo về âm nhạc.<br>
 *Bài Khát vọng mùa xuân được phỏng dịch lời Việt từ bài hát Sehnsucht nach dem fruhling.<br> Bài hát này cũng là một trích đoạn trong chủ đề của tác phẩm Piano concerto in B flat K. 595.</p>
 </header>
+<br>
+<br>
+<br>
+<h2>Câu hỏi & bài tập</h2>
+<form class="quiz" name="quiz">
+  <p>1. Tác giả bài hát "Khát vọng mùa xuân"</p>
+  <input class="textbox" type="text" name="question1">
+
+  <p>2. Bài hát "Khát vọng mùa xuân" viết ở số chỉ nhịp nào?</p>
+  <input type="radio" id="mc" name="question2" value="Nhịp 3/8">Nhịp 3/8<br>
+  <input type="radio" id="mc" name="question2" value="Nhịp 6/8">Nhịp 6/8<br>
+
+  <p>3. Nhạc sĩ Mozart sống ở thế kỉ nào? Sinh ở nước nào?</p>
+  <input type="radio" id="mc" name="question3" value="Thế kỉ XVIII, nước Áo">Thế kỉ XVIII, nước Áo<br>
+  <input type="radio" id="mc" name="question3" value="Thế kỉ XIX, nước Áo">Thế kỉ XVII, nước Áo<br>
+
+  <p>4. Tên đầy đủ của nhạc sĩ Mozart</p>
+  <input class="textbox" type="text" name="question4">
+
+  <p>5. Nhạc sĩ nào đặt lời Việt cho bài "Khát vọng mùa xuân"?</p>
+  <input type="radio" id="mc" name="question5" value="A. Tô Hải">A. Tô Hải<br>
+  <input type="radio" id="mc" name="question5" value="B. Tô Đình Hải">B. Tô Đình Hải<br>
+  <input type="radio" id="mc" name="question5" value="C. Tô Định">C. Tô Định<br>
+  <input type="radio" id="mc" name="question5" value="D. A, B đều đúng">D. A, B đều đúng<br>
+
+  <p>6. Mozart mất khi mấy tuổi?</p>
+  <input class="textbox" type="text" name="question6">
+
+  <p>7. Các tác phẩm nào của Mozart?</p>
+  <input type="radio" id="mc" name="question7" value="Turkish March, Symphony No.5">Turkish March, Symphony No.5<br>
+  <input type="radio" id="mc" name="question7" value="Eine Kleine Natchmusik, For Elise">Eine Kleine Natchmusik, For Elise<br>
+  <input type="radio" id="mc" name="question7" value="Symphony No.40, Four Seasons, Sonatine">Symphony No.40, Four Seasons, Sonatine<br>
+  <input type="radio" id="mc" name="question7" value="Turkish March, Symphony No.40, Sonatine">Turkish March, Symphony No.40, Sonatine<br>
+
+
+
+  <input id="button" type="button" value="Hoàn thành" onclick="check();">
+</form>
+
+<div id="after_submit">
+  <p id="message"></p>
+  <p id="number_correct"></p>
+  <img id="picture">
+</div>
 </body>
 <br>
 <hr>

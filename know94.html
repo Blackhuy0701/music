@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HỌC HÁT 9</title>
 <link href="stylethcs1.css" rel="stylesheet">
+<script defer src="know94.js"></script>
     </head>
 <body>
   <nav>
@@ -63,6 +64,73 @@ Tỉ lệ các ca khúc mang âm hưởng dân ca xuất hiện trên thị trư
 (Theo Người lao động)<br>
     </p>  
 </header>
+<h2>Câu hỏi & bài tập</h2>
+                <form class="quiz" name="quiz">
+                  <p>1. Tác gỉa của dân ca? </p>
+                  <input type="radio" id="mc" name="question1" value="Không biết">Không biết<br>
+                  <input type="radio" id="mc" name="question1" value="Nhân dân">Nhân dân<br>
+                  <input type="radio" id="mc" name="question1" value="Học giả">Học giả<br>
+                
+                  <p>2. "Cô giáo Tày cầm đàn lên đỉnh núi" mang âm hưởng dân ca?</p>
+                  <input type="radio" id="mc" name="question2" value="Đồng bằng Bắc Bộ">Đồng bằng Bắc Bộ<br>
+                  <input type="radio" id="mc" name="question2" value="Tây Nguyên">Tây Nguyên<br>
+                  <input type="radio" id="mc" name="question2" value="Tây Bắc">Tây Bắc<br>
+                
+                  <p>3. Bài nào mang âm hưởng dân ca miền Trung?</p>
+                  <input type="radio" id="mc" name="question3" value="Hò ba lí">Hò ba lí<br>
+                  <input type="radio" id="mc" name="question3" value="Giữa Mạc Tư Khoa nghe câu hò Nghệ Tĩnh">Giữa Mạc Tư Khoa nghe câu hò Nghệ Tĩnh<br>
+                  <input type="radio" id="mc" name="question3" value="Cái bống">Cái bống<br>
+                
+                  <p>4. Việt Nam có bao nhiêu vùng dân ca?</p>
+                  <input type="radio" id="mc" name="question4" value="5">5<br>
+                  <input type="radio" id="mc" name="question4" value="3">3<br>
+                  <input type="radio" id="mc" name="question4" value="8">8<br>
+                
+                  <p>5. Bài "Vui bước trên đường xa" (lớp 6) dựa trên bài Lí nào?</p>
+                  <input type="radio" id="mc" name="question5" value="A. Lí cây đa">A. Lí cây đa<br>
+                  <input type="radio" id="mc" name="question5" value="B. Lí con sáo Gò Công">B. Lí con sáo Gò Công<br>
+                  <input type="radio" id="mc" name="question5" value="C. Lí kéo chài">C. Lí kéo chài<br>
+                  <input type="radio" id="mc" name="question5" value="D. Lí dĩa bánh bò">D. Lí dĩa bánh bò<br>
+                
+                  <p>6. Việt Nam có mấy miền?</p>
+                  <input type="radio" id="mc" name="question6" value="8">8<br>
+                  <input type="radio" id="mc" name="question6" value="5">5<br>
+                  <input type="radio" id="mc" name="question6" value="4">4<br>
+                  <input type="radio" id="mc" name="question6" value="3">3<br>
+                
+                  <p>7. Bài "Ơi, Ma-drac" mang âm hưởng dân ca?</p>
+                  <input type="radio" id="mc" name="question7" value="Tây Bắc">Tây Bắc<br>
+                  <input type="radio" id="mc" name="question7" value="Tây Nguyên">Tây Nguyên<br>
+                  <input type="radio" id="mc" name="question7" value="Tây Ninh">Tây Ninh<br>
+                  <input type="radio" id="mc" name="question7" value="Tây Nam Bộ">Tây Nam Bộ<br>
+                
+                  <p>8. "Lí dĩa bánh bò" là dân ca miền?</p>
+                  <input type="radio" id="mc" name="question8" value="Miền Bắc">Miền Bắc<br>
+                  <input type="radio" id="mc" name="question8" value="Miền Trung">Miền Trung<br>
+                  <input type="radio" id="mc" name="question8" value="Miền Nam">Miền Nam<br>
+            
+                
+                  <p>9. "Khúc tâm tình người Hà Tĩnh" mang hưởng dân ca miền Trung là sáng tác của ai?</p>
+                  <input type="radio" id="mc" name="question9" value="Nguyễn Văn Tý">Nguyễn Văn Tý<br>
+                  <input type="radio" id="mc" name="question9" value="Nguyễn Vă Tỵ">Nguyễn Văn Tỵ<br>
+                  <input type="radio" id="mc" name="question9" value="Nguyễn Văn Thương">Nguyễn Văn Thương<br>
+                  <input type="radio" id="mc" name="question9" value="Nguyễn Văn Tương">Nguyễn Văn Tương<br>
+                
+                  <p>10. Chọn đáp án cho tựa đề: "Giữa Mạc Tư Khoa nghe câu hò..."?</p>
+                  <input type="radio" id="mc" name="question10" value="Không có">không có<br>
+                  <input type="radio" id="mc" name="question10" value="Nghệ Tĩnh">Nghệ Tĩnh<br>
+                  <input type="radio" id="mc" name="question10" value="Hà Tĩnh">Hà Tĩnh<br>
+                  
+                
+                  <input id="button" type="button" value="Hoàn thành" onclick="check();">
+                </form>
+                
+                <div id="after_submit">
+                  <p id="message"></p>
+                  <p id="number_correct"></p>
+                  <img id="picture">
+                </div>
+
 </body>
 <br>
 <hr>
