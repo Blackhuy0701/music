@@ -55,7 +55,8 @@ position: relative;}
 .T {position: relative;
 float: left;
 margin-left: 10%;
-;}
+margin-right: 2%;
+margin-bottom: 1%;}
 
 #after_submit {visibility: hidden;
 background: #ff5459;
@@ -96,6 +97,37 @@ margin-right: 10%;}
 
 .page1 {margin-left: 47%;}
 
-.H{margin-left: 10%;}
+.H{margin-left: 10%;
+  }
 
 .mp3 {margin-left: 39%;}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.table {width: 80%;
+border-spacing: 0;
+margin-left: 10%;
+}
+
+.table, th, td {
+    border: 1px solid #000;
+   
+    
+    
+}
+
+th, td {padding: 10px;
+}
