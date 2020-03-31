@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="30/4/1975") {correct++;}
+    if (question1=="30/4/1975" || question1=="30/4/1975.") {correct++;}
     if (question2=="Barack Obama") {correct++;}
     if (question3=="Rừng núi dang tay...") {correct++;}
-    if (question4=="Ta đi từ đồng hoang vu vượt hết núi đồi") {correct++;}
+    if (question4=="Ta đi từ đồng hoang vu vượt hết núi đồi" || question4=="Ta đi từ đồng hoang vu vượt hết núi đồi.") {correct++;}
     if (question5=="D. Tất cả đều đúng") {correct++;}
-    if (question6=="Richard Fuller") {correct++;}
+    if (question6=="Richard Fuller" || question6=="Richard Fuller.") {correct++;}
     if (question7=="B. Hồ Quang Hiếu") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

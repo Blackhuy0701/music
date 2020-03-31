@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="2/4, 3/4, 4/4") {correct++;}
+    if (question1=="2/4, 3/4, 4/4" || question1=="2/4, 3/4, 4/4." || question1=="2/4,3/4,4/4" || question1=="2/4,3/4,4/4.") {correct++;}
     if (question2=="Móc đơn") {correct++;}
     if (question3=="Số phách trong một ô nhịp") {correct++;}
-    if (question4=="6") {correct++;}
+    if (question4=="6" || question4=="6.") {correct++;}
     if (question5=="D. 4/4") {correct++;}
-    if (question6=="Đen") {correct++;}
+    if (question6=="Đen" || question6=="Đen." || question6=="Nốt đen" || question6=="Nốt đen.") {correct++;}
     if (question7=="D. Tất cả đều đúng") {correct++;}
-    if (question8=="2") {correct++;}
-    if (question9=="2") {correct++;}
+    if (question8=="2" || question8=="2.") {correct++;}
+    if (question9=="2" || question9=="2.") {correct++;}
     if (question10=="D. Tất cả đều đúng") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

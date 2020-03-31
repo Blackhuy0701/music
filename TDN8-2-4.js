@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Vũ Hoàng") {correct++;}
+    if (question1=="Vũ Hoàng" || question1=="Vũ Hoàng.") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="Lặng đen") {correct++;}
-    if (question4=="Vũ Bảo Hoàng") {correct++;}
+    if (question4=="Vũ Bảo Hoàng" || question4=="Vũ Bảo Hoàng.") {correct++;}
     if (question5=="C. Móc đôi, móc đơn, móc đơn chấm dôi, đen, trắng") {correct++;}
-    if (question6=="Đô trưởng") {correct++;}
+    if (question6=="Đô trưởng" || question6=="Đô trưởng." || question6=="Giọng Đô trưởng" || question6=="Giọng Đô trưởng.") {correct++;}
     if (question7=="C. Lê Văn Lộc") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

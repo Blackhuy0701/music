@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Văn Cao") {correct++;}
+    if (question1=="Văn Cao" || question1=="Văn Cao.") {correct++;}
     if (question2=="Nhịp 6/8") {correct++;}
     if (question3=="Hải Phòng") {correct++;}
-    if (question4=="Nguyễn Văn Cao") {correct++;}
+    if (question4=="Nguyễn Văn Cao" || question4=="Nguyễn Văn Cao.") {correct++;}
     if (question5=="D. Móc đơn, đen, đen chấm dôi") {correct++;}
-    if (question6=="72") {correct++;}
+    if (question6=="72" || question6=="72." || question6=="72 tuổi" || question6=="72 tuổi.") {correct++;}
     if (question7=="Mùa xuân đầu tiên") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

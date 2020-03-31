@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="2") {correct++;}
+    if (question1=="2" || question1=="2.") {correct++;}
     if (question2=="Mi - Fa") {correct++;}
     if (question3=="Số lượng") {correct++;}
     if (question4=="Unison") {correct++;}
     if (question5=="B. 0.5") {correct++;}
-    if (question6=="Perfect") {correct++;}
+    if (question6=="Perfect" || question6=="Perfect.") {correct++;}
     if (question7=="0.5 cung") {correct++;}
-    if (question8=="Quãng hoà âm") {correct++;}
-    if (question9=="Quãng 8 đúng") {correct++;}
+    if (question8=="Quãng hoà âm" || question8=="Quãng hoà âm.") {correct++;}
+    if (question9=="Quãng 8 đúng" || question9=="Quãng 8 đúng.") {correct++;}
     if (question10=="Quãng thuận") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Nguyễn Tài Tuệ") {correct++;}
+    if (question1=="Nguyễn Tài Tuệ" || question1=="Nguyễn Tài Tuệ.") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="Nghệ An") {correct++;}
-    if (question4=="15/5/1936") {correct++;}
+    if (question4=="15/5/1936" || question4=="15/5/1936.") {correct++;}
     if (question5=="B. Móc đôi, móc đơn, đen, đen chấm dôi, trắng") {correct++;}
-    if (question6=="Fa, Si") {correct++;}
+    if (question6=="Fa, Si" || question6=="Fa,Si") {correct++;}
     if (question7=="Tiếng hát giữa rừng Pác Bó") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

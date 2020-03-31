@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Phạm Tuyên") {correct++;}
+    if (question1=="Phạm Tuyên" || question1=="Phạm Tuyên.") {correct++;}
     if (question2=="2/2") {correct++;}
     if (question3=="Vladimir Yakovlevich Shainsky") {correct++;}
-    if (question4=="Gấu mèo") {correct++;}
+    if (question4=="Gấu mèo" || question4=="Gấu mèo." || question4=="Gấu Mèo" || question4=="Gấu Mèo.") {correct++;}
     if (question5=="B. Katyusha") {correct++;}
-    if (question6=="Những giọt mưa bay bay bên ta") {correct++;}
+    if (question6=="Những giọt mưa bay bay bên ta" || question6=="Những giọt mưa bay bay bên ta.") {correct++;}
     if (question7=="D. Tất cả đều đúng") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

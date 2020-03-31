@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Phạm Tuyên") {correct++;}
+    if (question1=="Phạm Tuyên" || question1=="Phạm Tuyên.") {correct++;}
     if (question2=="Nhịp 3/4") {correct++;}
     if (question3=="Nga") {correct++;}
-    if (question4=="Em") {correct++;}
+    if (question4=="Em" || question4=="Em." || question4=="Mi thứ") {correct++;}
     if (question5=="A. Móc đơn, đen, đen chấm dôi, trắng, trắng chấm dôi") {correct++;}
-    if (question6=="G") {correct++;}
+    if (question6=="G" || question6=="G." || question6=="G trưởng") {correct++;}
     if (question7=="Tất cả đều sai") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

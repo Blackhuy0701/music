@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="26/12/2019") {correct++;}
+    if (question1=="26/12/2019" || question1=="26/12/2019.") {correct++;}
     if (question2=="Màu áo chú bộ đội") {correct++;}
     if (question3=="5/3/1925") {correct++;}
     if (question4=="1975") {correct++;}
     if (question5=="D. Dáng đứng Bến Tre") {correct++;}
-    if (question6=="Nguyễn Thị Bạch Lệ")  {correct++;}
+    if (question6=="Nguyễn Thị Bạch Lệ" || question6=="Nguyễn Thị Bạch Lệ.")  {correct++;}
     if (question7=="Nguyễn Văn Thương") {correct++;}
-    if (question8=="Dư âm") {correct++;}
-    if (question9=="Con có hay chăng") {correct++;}
+    if (question8=="Dư âm" || question8=="Dư âm.") {correct++;}
+    if (question9=="Con có hay chăng" || question9=="Con có hay chăng.") {correct++;}
     if (question10=="Vợ và con gái lớn của ông") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

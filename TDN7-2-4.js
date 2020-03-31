@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Phạm Trọng Cầu") {correct++;}
+    if (question1=="Phạm Trọng Cầu" || question1=="Phạm Trọng Cầu.") {correct++;}
     if (question2=="Nhịp 3/4") {correct++;}
     if (question3=="1998") {correct++;}
-    if (question4=="1948") {correct++;}
+    if (question4=="1948" || question4=="1948." || question4=="Năm 1948" || question4=="Năm 1948.") {correct++;}
     if (question5=="A. Đen, trắng, trắng chấm dôi") {correct++;}
-    if (question6=="Dấu nhắc lại") {correct++;}
+    if (question6=="Dấu nhắc lại" || question6=="Dấu nhắc lại.") {correct++;}
     if (question7=="Hát khung 1 rồi lặp lại, lặp lại bỏ khung 1 và hát khung 2") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

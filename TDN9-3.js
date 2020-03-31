@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Hoàng Việt") {correct++;}
+    if (question1=="Hoàng Việt" || question1=="Hoàng Việt") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="1950") {correct++;}
-    if (question4=="F") {correct++;}
+    if (question4=="F" || question4=="F." || question4=="Fa trưởng") {correct++;}
     if (question5=="D. Móc đơn, đen, đen chấm dôi, trắng") {correct++;}
-    if (question6=="Fm") {correct++;}
+    if (question6=="Fm" || question6=="Fm." || question6=="Fa thứ") {correct++;}
     if (question7=="Nhạc rừng") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

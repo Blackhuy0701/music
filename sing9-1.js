@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Hoàng Lân") {correct++;}
+    if (question1=="Hoàng Lân" || question1=="Hoàng Lân.") {correct++;}
     if (question2=="4/4 và 2/4") {correct++;}
     if (question3=="Lời 2") {correct++;}
-    if (question4=="Hoàng Long") {correct++;}
+    if (question4=="Hoàng Long" || question4=="Hoàng Long.") {correct++;}
     if (question5=="D. Chúng em cần hoà bình") {correct++;}
-    if (question6=="Đi học về") {correct++;}
+    if (question6=="Đi học về" || question6=="Đi học về.") {correct++;}
     if (question7=="A. Từ rừng xanh cháu về thăm lăng Bác") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

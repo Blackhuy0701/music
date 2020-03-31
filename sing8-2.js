@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Mozart") {correct++;}
+    if (question1=="Mozart" || question1=="Mozart." || question1=="W.A.Mozart") {correct++;}
     if (question2=="Nhịp 6/8") {correct++;}
     if (question3=="Thế kỉ XVIII, nước Áo") {correct++;}
-    if (question4=="Wolfgang Amadeus Mozart") {correct++;}
+    if (question4=="Wolfgang Amadeus Mozart" || question4=="Wolfgang Amadeus Mozart.") {correct++;}
     if (question5=="D. A, B đều đúng") {correct++;}
-    if (question6=="35") {correct++;}
+    if (question6=="35" || question6=="35." || question6=="35 tuổi" || question6=="35 tuổi.") {correct++;}
     if (question7=="Turkish March, Symphony No.40, Sonatine") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

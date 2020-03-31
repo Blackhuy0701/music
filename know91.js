@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="Du Tử Lê") {correct++;}
+    if (question1=="Du Tử Lê" || question1=="Du Tử Lê.") {correct++;}
     if (question2=="Bụi phấn") {correct++;}
     if (question3=="XX") {correct++;}
     if (question4=="Có") {correct++;}
     if (question5=="C. 30%") {correct++;}
-    if (question6=="Sai") {correct++;}
+    if (question6=="Sai" || question6=="Sai.") {correct++;}
     if (question7=="Phan Huỳnh Điểu") {correct++;}
-    if (question8=="Ít") {correct++;}
-    if (question9=="Bánh trôi nước") {correct++;}
+    if (question8=="Ít" || question8=="Ít.") {correct++;}
+    if (question9=="Bánh trôi nước" || question9=="Bánh trôi nước.") {correct++;}
     if (question10=="Dựa theo chủ đề bài thơ") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

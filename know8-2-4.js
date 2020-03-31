@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="Piano") {correct++;}
+    if (question1=="Piano" || question1=="Piano.") {correct++;}
     if (question2=="Độc tấu") {correct++;}
     if (question3=="Có") {correct++;}
-    if (question4=="Hoà tấu") {correct++;}
+    if (question4=="Hoà tấu" || question4=="Hoà tấu.") {correct++;}
     if (question5=="B. Nhạc khí") {correct++;}
-    if (question6=="Vĩ cầm") {correct++;}
+    if (question6=="Vĩ cầm" || question6=="Vĩ cầm.") {correct++;}
     if (question7=="Trống") {correct++;}
-    if (question8=="Symphony") {correct++;}
-    if (question9=="Solo") {correct++;}
+    if (question8=="Symphony" || question8=="Symphony.") {correct++;}
+    if (question9=="Solo" || question9=="Solo.") {correct++;}
     if (question10=="Tất cả đều đúng") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

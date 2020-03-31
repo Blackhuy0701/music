@@ -12,7 +12,7 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="7" || question1=="Bảy" || question1=="7 bậc" || question1=="Bảy bậc") {correct++;}
+    if (question1=="7" || question1=="Bảy" || question1=="7 bậc" || question1=="Bảy bậc" || question1=="7." || question1=="Bảy." || question1=="7 bậc." || question1=="Bảy bậc.") {correct++;}
     if (question2=="2") {correct++;}
     if (question3=="Không") {correct++;}
     if (question4=="Scale") {correct++;}

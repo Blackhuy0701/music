@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Nga") {correct++;}
+    if (question1=="Nga" || question1=="Nga.") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="Lặng đơn và lặng đen") {correct++;}
-    if (question4=="Đố") {correct++;}
+    if (question4=="Đố" || question4=="Đố." || question4=="Nốt Đố" || question4=="Nốt Đố.") {correct++;}
     if (question5=="D. Móc đơn, đen, đen chấm dôi") {correct++;}
-    if (question6=="Đô trưởng") {correct++;}
+    if (question6=="Đô trưởng" || question6=="Giọng Đô trưởng" || question6=="Đô trưởng." || question6=="Giọng Đô trưởng.") {correct++;}
     if (question7=="D. Đồ, Rê, Mi, Fa, Sol, La, Si, Đố") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

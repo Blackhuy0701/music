@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="Dịch giọng") {correct++;}
+    if (question1=="Dịch giọng" || question1=="Dịch giọng.") {correct++;}
     if (question2=="Mi - Sol - Si") {correct++;}
     if (question3=="Hình nốt") {correct++;}
     if (question4=="Không") {correct++;}
     if (question5=="D. Tất cả đều đúng") {correct++;}
-    if (question6=="Tranposition" || question6=="Changing keys") {correct++;}
+    if (question6=="Tranposition" || question6=="Changing keys" || question6=="Tranposition." || question6=="Changing keys.") {correct++;}
     if (question7=="Sol - Si - Rê") {correct++;}
-    if (question8=="Không") {correct++;}
-    if (question9=="Cao độ") {correct++;}
+    if (question8=="Không" || question8=="Không." || question8=="Không thay đổi" || question8=="Không thay đổi.") {correct++;}
+    if (question9=="Cao độ" || question9=="Cao độ.") {correct++;}
     if (question10=="Rê thứ") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

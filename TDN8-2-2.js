@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Liên Xô") {correct++;}
+    if (question1=="Liên Xô" || question1=="Liên Xô.") {correct++;}
     if (question2=="Nhịp 6/8") {correct++;}
     if (question3=="1933") {correct++;}
-    if (question4=="Tuổi hồng") {correct++;}
+    if (question4=="Tuổi hồng" || question4=="Tuổi hồng.") {correct++;}
     if (question5=="B. Móc đôi, móc đơn, đen ,đen chấm dôi") {correct++;}
-    if (question6=="Chỉ có một mà thôi") {correct++;}
+    if (question6=="Chỉ có một mà thôi" || question6=="Chỉ có một mà thôi.") {correct++;}
     if (question7=="C. Trái đất này là của chúng mình") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

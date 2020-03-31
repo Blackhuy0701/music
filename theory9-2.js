@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="3") {correct++;}
+    if (question1=="3" || question1=="3") {correct++;}
     if (question2=="Đô - Mi - Sol") {correct++;}
     if (question3=="Quãng 7") {correct++;}
     if (question4=="Triad") {correct++;}
     if (question5=="A. C") {correct++;}
-    if (question6=="3") {correct++;}
+    if (question6=="3" || question6=="3.") {correct++;}
     if (question7=="3") {correct++;}
-    if (question8=="C7") {correct++;}
-    if (question9=="Mi thứ") {correct++;}
+    if (question8=="C7" || question8=="C7.") {correct++;}
+    if (question9=="Mi thứ" || question9=="Mi thứ.") {correct++;}
     if (question10=="Đệm hát") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

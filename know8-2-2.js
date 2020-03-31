@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="Đơn ca") {correct++;}
+    if (question1=="Đơn ca" || question1=="Đơn ca.") {correct++;}
     if (question2=="5") {correct++;}
     if (question3=="Bè phức điệu") {correct++;}
-    if (question4=="Chỉ huy hợp xướng") {correct++;}
+    if (question4=="Chỉ huy hợp xướng" || question4=="Chỉ huy hợp xướng.") {correct++;}
     if (question5=="C. Basse") {correct++;}
-    if (question6=="Tenor") {correct++;}
+    if (question6=="Tenor" || question6=="Tenor.") {correct++;}
     if (question7=="4") {correct++;}
-    if (question8=="7") {correct++;}
-    if (question9=="Alto") {correct++;}
+    if (question8=="7" || question8=="Bảy loại" || question8=="Bảy loại."|| question8=="Bảy" || question8=="7 loại." || question8=="7 loại" || question8=="7.") {correct++;}
+    if (question9=="Alto" || question9=="Alto.") {correct++;}
     if (question10=="A cappella") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

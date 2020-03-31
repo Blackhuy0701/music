@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Ukraina") {correct++;}
+    if (question1=="Ukraina" || question1=="Ukraina.") {correct++;}
     if (question2=="Nhịp 3/4") {correct++;}
     if (question3=="Đông Âu") {correct++;}
-    if (question4=="Không") {correct++;}
+    if (question4=="Không" || question4=="Không.") {correct++;}
     if (question5=="D. Móc đơn, đen, trắng, trắng chấm dôi") {correct++;}
-    if (question6=="Là, Si, Đô, Rê, Mi, Fa, Sol, La, Si, Đố") {correct++;}
+    if (question6=="Là, Si, Đô, Rê, Mi, Fa, Sol, La, Si, Đố" || question6=="Là,Si,Đô,Rê,Mi,Fa,Sol,La,Si,Đố" || question6=="Là Si Đô Rê Mi Fa Sol La Si Đố") {correct++;}
     if (question7=="Ukraine") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

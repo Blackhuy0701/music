@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Phạm Tuyên") {correct++;}
+    if (question1=="Phạm Tuyên" || question1=="Phạm Tuyên.") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="Si") {correct++;}
-    if (question4=="F") {correct++;}
+    if (question4=="F" || question4=="F." || question4=="Fa trưởng") {correct++;}
     if (question5=="C. Móc đơn, đen, trắng") {correct++;}
-    if (question6=="D") {correct++;}
+    if (question6=="D" || question6=="D." || question6=="Rê trưởng" || question6=="D trưởng") {correct++;}
     if (question7=="TĐN số 2") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

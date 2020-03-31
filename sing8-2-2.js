@@ -9,12 +9,12 @@ function check() {
     var question7=document.quiz.question7.value;
     var correct=0;
 
-    if (question1=="Phạm Tuyên") {correct++;}
+    if (question1=="Phạm Tuyên" || question1=="Phạm Tuyên.") {correct++;}
     if (question2=="Nhịp 2/4") {correct++;}
     if (question3=="Con Rồng cháu Tiên") {correct++;}
-    if (question4=="Quả bầu mẹ") {correct++;}
+    if (question4=="Quả bầu mẹ" || question4=="Quả bầu mẹ." || question4=="Truyền thuyết Quả bầu mẹ" || question4=="Truyền thuyết Quả bầu mẹ.") {correct++;}
     if (question5=="A. La Thứ") {correct++;}
-    if (question6=="Lạc Long Quân") {correct++;}
+    if (question6=="Lạc Long Quân" || question6=="Lạc Long Quân.") {correct++;}
     if (question7=="Chiếc đèn ông sao") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Xem lại bài"];

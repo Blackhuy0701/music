@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="39") {correct++;}
+    if (question1=="39" || question1=="39 tuổi." || question1=="39." || question1=="39 tuổi") {correct++;}
     if (question2=="Lao phổi") {correct++;}
     if (question3=="Paris, Pháp") {correct++;}
-    if (question4=="Ba Lan") {correct++;}
+    if (question4=="Ba Lan" || question4=="Ba Lan.") {correct++;}
     if (question5=="D. Lãng mạn") {correct++;}
-    if (question6=="Warsaw") {correct++;}
+    if (question6=="Warsaw" || question6=="Warsaw." || question6=="Vác-xa-va" || question6=="Vác-xa-va.") {correct++;}
     if (question7=="Đặng Thái Sơn") {correct++;}
-    if (question8=="X") {correct++;}
-    if (question9=="1810") {correct++;}
+    if (question8=="X" || question8=="X.") {correct++;}
+    if (question9=="1810" || question9=="1810." || question9=="Năm 1810" || question9=="Năm 1810.") {correct++;}
     if (question10=="Tất cả sai") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

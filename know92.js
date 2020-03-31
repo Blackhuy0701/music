@@ -12,15 +12,15 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="Hồ thiên nga") {correct++;}
+    if (question1=="Hồ thiên nga" || question1=="Hồ thiên nga.") {correct++;}
     if (question2=="Eugene Onegin") {correct++;}
     if (question3=="St. Petersburg") {correct++;}
     if (question4=="Luật") {correct++;}
     if (question5=="C. Lãng mạn") {correct++;}
-    if (question6=="7/5/1840 - 6/11/1893")  {correct++;}
+    if (question6=="7/5/1840 - 6/11/1893" || question6=="7/5/1840 - 6/11/1893.")  {correct++;}
     if (question7=="Nhóm 5 cây Đại thụ") {correct++;}
-    if (question8=="Không") {correct++;}
-    if (question9=="53") {correct++;}
+    if (question8=="Không" || question8=="Không.") {correct++;}
+    if (question9=="53" || question9=="53.") {correct++;}
     if (question10=="Còn tranh cãi") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];

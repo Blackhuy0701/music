@@ -12,7 +12,7 @@ function check() {
     var question10=document.quiz.question10.value;
     var correct=0;
 
-    if (question1=="2") {correct++;}
+    if (question1=="2" || question1=="2.") {correct++;}
     if (question2=="Mi - Fa") {correct++;}
     if (question3=="Quãng 3") {correct++;}
     if (question4=="Unison") {correct++;}
