@@ -38,7 +38,8 @@ nav li:hover a {
 }
 
 p {text-align: justify;
-   font-size: medium;}
+   font-size: medium;
+margin: 5px;}
 
 .foot {text-align: center;
     
@@ -47,8 +48,10 @@ position: relative;}
 
 .para {font-size: large;
     font-family: 'Times New Roman', sans-serif;
+    text-indent: 20px;
     margin-left: 10%;
     margin-right: 10%;
+   line-height: 25px;
    
 }
 
@@ -72,7 +75,7 @@ width: 375px;}
 .quiz {
     margin-left: 10%;
     background: #d2def2;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     width: 400px;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
