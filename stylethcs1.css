@@ -38,8 +38,9 @@ nav li:hover a {
 }
 
 p {text-align: justify;
-   font-size: medium;
-margin: 5px;}
+   font-size: large;
+margin: 5px;
+font-family: 'Times New Roman', serif;}
 
 .foot {text-align: center;
     
@@ -54,6 +55,15 @@ position: relative;}
    line-height: 25px;
    
 }
+
+.par {font-size: large;
+    font-family: 'Times New Roman', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+   line-height: 25px;
+   
+}
+
 
 .T {position: relative;
 float: left;
@@ -100,7 +110,7 @@ margin-right: 10%;}
 
 .page1 {margin-left: 47%;}
 
-.H{margin-left: 10%;
+.H {margin-left: 20%;
   }
 
 .mp3 {margin-left: 39%;}
