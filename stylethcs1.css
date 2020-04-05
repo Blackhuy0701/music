@@ -65,7 +65,7 @@ position: relative;}
 }
 
 
-.T {position: relative;
+.T {
 float: left;
 margin-left: 10%;
 margin-right: 2%;
@@ -111,6 +111,8 @@ margin-right: 10%;}
 .page1 {margin-left: 47%;}
 
 .H {margin-left: 20%;
+    display: block;
+    margin: auto;
   }
 
 .mp3 {margin-left: 39%;}
