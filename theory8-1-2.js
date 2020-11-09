@@ -20,7 +20,7 @@ function check() {
     if (question6=="Giọng song song" || question6=="Giọng song song.") {correct++;}
     if (question7=="VII") {correct++;}
     if (question8=="Si thứ" || question8=="Bm") {correct++;}
-    if (question9=="Nốt Sol" || question9=="Sol") {correct++;}
+    if (question9=="Nốt Sol" || question9=="Sol" || question9=="G") {correct++;}
     if (question10=="Thứ hoà thanh") {correct++;}
 
     var messages=["Tuyệt vời", "Khá", "Cần cố gắng hơn", "Xem lại bài", ];
